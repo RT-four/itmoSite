@@ -1,0 +1,42 @@
+body{
+background-color: #10141f;
+}
+a{
+  color: bisque;
+}
+
+.main-image{
+width: 90%;
+}
+.container{
+  /* position: absolute; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.container-second{
+  display: flex;
+  position: absolute;
+  top:30%;
+  z-index: 2;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.main-text{
+  text-align: center;
+  width: 50%;
+font-size: 32px;
+color:#fff;
+}
+.container-third{
+  display: flex;
+  position: absolute;
+  top:50%;
+  justify-content: center;
+  z-index: 4;
+  padding-left: 50%;
+}
